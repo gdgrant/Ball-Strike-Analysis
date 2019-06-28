@@ -39,7 +39,7 @@ function plotting()
 
 % end
 
-	load('./result_data/result_data_new_ds.mat')
+	load('./result_data/result_data.mat')
 	win = 20;
 
 	% Neuron channels and iso qual conditions

@@ -39,7 +39,7 @@ function time_series_masks_by_flash_type()
 	names = {'All', 'PPC', 'PFC (all)', 'PFC (wave>=10)', 'PFC (wave<10)'};
 	sets  = {all_neurons, PPC_neurons, PFC_neurons, PFC_neurons_wave_g215, PFC_neurons_wave_l215};
 	
-	subject = 'Spiking';
+	subject = 'Perc';
 
 	for i=2:3
 
